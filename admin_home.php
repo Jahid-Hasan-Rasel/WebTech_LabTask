@@ -1,0 +1,1 @@
+<?phpsession_start();if(!isset($_SESSION['login_user']) ){ include('session.php'); }?><center>	<h1>Welcome Admin!</h1>	<a href="profile.php">Profile</a>	<br/>	<a href="change_password.php">Change Password</a>	<br/>	<a href="view_users.html">View Users</a>	<br/>	<a href="login.html">Logout</a></center>
